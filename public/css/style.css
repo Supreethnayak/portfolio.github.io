@@ -1,0 +1,147 @@
+body{
+  /* background-color: ; */
+}
+@font-face {
+  font-family: 'gilroy';
+  src: url(/resumeproject/public/Gilroy-ExtraBold.otf);
+}
+
+.gil-font{
+  font-family: 'gilroy', sans-serif;
+}
+
+/* Font */
+
+.st-font {
+    font-family: 'Poppins', sans-serif;
+   }
+.st-font1 {
+    font-family: 'Montserrat', sans-serif;
+   }
+
+   .main-col{
+    color: #029aff;
+   }
+   /* .side-col{
+    background-color: #0d1b28;
+   } */
+   
+   html,
+   body {
+    font-family: 'Poppins', sans-serif;
+     color: white;
+    height: 100%;
+   }
+
+   body {
+    background-color: #0e1e2d;
+   }
+   
+   .container-fluid {
+    min-height: 100%;
+   }
+   
+   /* Service Icon Color */
+   .i-color {
+    color: #029aff;
+   }
+   
+   /* Service Subtitle Color */
+   .ss-color {
+    color: silver;
+   }
+
+   .pad{
+    position:relative;
+    right:20px;
+   }
+
+   .mar{
+     margin-right: 50px;
+   }
+   
+   a.nav-link {
+    margin-right: -20px;
+    color: whitesmoke;
+   }
+
+   .slide{
+     width: 10%;
+   }
+
+   .skills{
+    color: white;
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 28px 0 rgb(241 241 241 / 10%);
+    margin: 50px;
+    text-decoration: none;
+   }
+   .skills:hover{
+    color: white;
+   }
+
+   .skills-icon {
+    color: white;
+}
+
+.skill-group{
+  padding : 40px;
+}
+
+   .proj-img{
+    overflow: hidden;
+    width: 40%;
+    margin: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 28px 0 rgb(241 241 241 / 10%);
+   }
+
+   /* .nav-left{
+    
+   } */
+   
+   .col-red{
+     color: #de3e62;
+   }
+
+  .col-blue{
+    color: #029aff;
+  }
+
+   a.nav-link:hover {
+    color: white;
+    /* background-color: #e9cd79; */
+    background-color: #e44a6c;
+   }
+   a.nav-link.active:hover {
+    color: white;
+    background-color: #e44a6c;
+   }
+   
+   a.nav-link.active {
+    /* background-color: #ffc107; */
+    /* background-color: #5D3FD3; */
+    background-color: #029aff;
+    /* background-color: #de3e62; */
+    font-weight: bold;
+   }
+
+   .wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
